@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Candidate Evaluation Results</title>
+    <style>
+        .top { background-color: #d4edda; }
+    </style>
+</head>
+<body>
+<h1>Evaluation Results</h1>
+<h2>Job Description</h2>
+<pre>{{ jd_text }}</pre>
+
+<h2>Candidates</h2>
+<table border="1" cellpadding="5">
+<tr>
+    <th>Resume</th>
+    <th>Score</th>
+    <th>Missing Skills</th>
+    <th>Remark</th>
+    <th>Interview Email</th>
+    <th>Rejection Email</th>
+</tr>
+{% for c in candidates %}
+<tr class="{{ 'top' if c.is_top else '' }}">
+    <td>{{ c.filename }}</td>
+    <td>{{ c.score }}</td>
+    <td>{{ c.missing_skills|join(', ') }}</td>
+    <td>{{ c.remark }}</td>
+    <td><pre>{{ c.interview_email }}</pre></td>
+    <td><pre>{{ c.rejection_email }}</pre></td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>

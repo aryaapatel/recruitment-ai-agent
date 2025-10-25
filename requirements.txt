@@ -1,0 +1,15 @@
+# Main Frameworks
+fastapi
+uvicorn
+streamlit
+pandas
+
+# File and Text Processing
+PyPDF2
+python-docx
+
+# API and Environment
+requests
+python-dotenv
+python-multipart
+jinja2
