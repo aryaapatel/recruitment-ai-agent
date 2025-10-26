@@ -98,9 +98,4 @@ uvicorn main_fastapi:app --reload
 
 The API will be running at http://127.0.0.1:8000. You can access the interactive API documentation (powered by Swagger UI) at http://127.0.0.1:8000/docs.
 
-🔮 Future Improvements
-Database Integration: Store candidate scores and evaluation history in a database like PostgreSQL or SQLite.
-Asynchronous Processing: For the FastAPI app, process resume evaluations as background tasks using Celery to avoid blocking the API on long-running AI calls.
-Improved Frontend: Enhance the Streamlit UI with more advanced filtering, sorting, and data visualization.
-Containerization: Add a Dockerfile to easily deploy the application using Docker.
 
