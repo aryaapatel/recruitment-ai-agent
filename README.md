@@ -6,6 +6,10 @@ The application features two distinct interfaces:
 1.  An interactive web application built with **Streamlit** for easy, visual use.
 2.  A robust REST API built with **FastAPI** for programmatic integration.
 
+Here is the demo:
+https://recruitment-ai-agent-l7s5btyxks5pe7zfuvqdmn.streamlit.app/
+
+
 ![Screenshot of the Recruitment AI Agent Streamlit UI]
 !https://www.canva.com/design/DAG2zmlG0Eo/7jGqpYqE5Qfxl05RjCqtWA/view?utm_content=DAG2zmlG0Eo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4f74195fea
 
